@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: orange;
+    height: 150px;
+}
+.leftHeader{
+
+}
+.rightHeader{
+    margin-left: 824px;
+    background-color: rgb(180, 169, 152);
+    height: 40px;
+}
+.rightHeader ul{
+    list-style-type: none;
+}
+.rightHeader ul li{
+    float: right;
+    padding: 7px;
+    color: white;
+}
+.navBar{
+background-color: black;
+display: grid;
+justify-content: center;
+align-items: center;
+height: 60px;
+}
+.navBar ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.navBar ul li{
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    float: right;
+    color: white;
+    font-size: large;
+}
+.navBar ul li:hover{
+    background-color: orange;
+}
+.main{
+    margin-top: 40px;
+}
+.image{
+    
+    background-image: url(images/fastex-main1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 99vw;
+}
+.shade{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+.box1{
+    margin-left: 100px;
+    margin-top: 20px;
+    background-image: url(images/courier-service-industry.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.box1Info{
+    margin-top: 320px;
+    color: white;
+}
+.box2{
+    margin-top: 20px;
+    background-image: url(images/courier-service-industry.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.box3{
+    margin-top: 20px;
+    background-image: url(images/courier-service-industry.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.footer{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    bottom: 0;
+    background-color: black;
+    height: 100px;
+}
+.Info{
+    background-color: orange;
+    width: 100%;
+    height: 300px;
+}
